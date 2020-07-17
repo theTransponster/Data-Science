@@ -3,11 +3,7 @@
 
 #Interquartil: (Q3-Q1)
 
-#Read from STDIN, prints on STDOUT
-
-Intercuartiles
-
-#  Enter  your  code  here.  Read  input  from  STDIN.  Print  output  to  STDOUT
+#Reads from STDIN, prints on STDOUT
 
 
 n  =  int(input())  #number  of  elements  of  the  array
