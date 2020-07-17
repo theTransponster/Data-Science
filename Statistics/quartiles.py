@@ -2,6 +2,22 @@
 #The objective is to understand the concept of quartiles from scratch
 #The program reads from the console and prints in it (STDIN, STDOUT) 
 
+#Lower half: 
+#If the length of the vector is odd (1,2,3,4,5)
+#lower half will be: 1,2
+#If the length of the vector is even (1,2,3,4,5,6)
+#lower half will be: 1,2,3
+
+#Upper half:
+#If the length of the vector is odd (1,2,3,4,5)
+#upper half will be: 4,5
+#If the length of the vector is even (1,2,3,4,5,6)
+#upper half will be: 4,5,6
+
+
+#Q1 : median of the lower half
+#Q2 : median of the complete data
+#Q3 : median of the upper half
 
 #Begin the implementation of functions
 
