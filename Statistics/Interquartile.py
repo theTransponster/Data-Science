@@ -7,11 +7,12 @@
 
 
 n  =  int(input())  #number  of  elements  of  the  array
-numbers  =  list(map(int,  input().split('  ')))
-frequency  =  list(map(int,  input().split('  ')))
+numbers  =  list(map(int,  input().split('Enter the numbers on a single line separated by spaces: '))) #elements on the vector
+frequency  =  list(map(int,  input().split('Enter the frequency of each number (in the same order) separated by spaces: ')))
 
 arr  =  []
 
+#Make a vector repeating each number according to the frequencies entered
 for  x,y  in  zip(numbers,frequency):
         for  i  in  range(0,y):
                 arr.append(x)
